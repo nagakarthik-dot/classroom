@@ -1,0 +1,63 @@
+INFO 07/01/2025 10:30:53 AM : STEP 1: Starting the script.
+INFO 07/01/2025 10:30:53 AM : STEP 2: Found Excel files.
+INFO 07/01/2025 10:30:53 AM : STEP 3: Valid input path identified.
+INFO 07/01/2025 10:30:55 AM : STEP 4: Input data read successfully.
+INFO 07/01/2025 10:30:55 AM : STEP 5: Optimizer initialized.
+INFO 07/01/2025 10:30:55 AM : Set parameter ServerPassword
+INFO 07/01/2025 10:30:55 AM : Set parameter CSManager to value "52.231.202.235:61080"
+INFO 07/01/2025 10:30:55 AM : Compute Server job ID: fc24bf73-1c48-4c86-8e72-f39382bef6bc
+INFO 07/01/2025 10:30:55 AM : Capacity available on 'gurobi.routecap.com' - connecting...
+INFO 07/01/2025 10:30:55 AM : Established HTTP unencrypted connection
+INFO 07/01/2025 10:30:56 AM : STEP 5.1: Problem initialized.
+INFO 07/01/2025 10:30:56 AM : STEP 5.2: Variables defined.
+INFO 07/01/2025 10:30:57 AM : STEP 5.3: Constraints created.
+INFO 07/01/2025 10:30:57 AM : STEP 5.4: Objective function set.
+INFO 07/01/2025 10:30:59 AM : Gurobi Optimizer version 10.0.3 build v10.0.3rc0 (win64)
+INFO 07/01/2025 10:31:00 AM : Gurobi Compute Server Worker version 10.0.3 build v10.0.3rc0 (linux64)
+INFO 07/01/2025 10:31:00 AM : 
+INFO 07/01/2025 10:31:00 AM : CPU model: Intel(R) Xeon(R) CPU E5-2673 v4 @ 2.30GHz, instruction set [SSE2|AVX|AVX2]
+INFO 07/01/2025 10:31:00 AM : Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+INFO 07/01/2025 10:31:00 AM : 
+INFO 07/01/2025 10:31:00 AM : Optimize a model with 168084 rows, 76759 columns and 682779 nonzeros
+INFO 07/01/2025 10:31:00 AM : Model fingerprint: 0xe3846dbc
+INFO 07/01/2025 10:31:00 AM : Variable types: 34 continuous, 76725 integer (76725 binary)
+INFO 07/01/2025 10:31:00 AM : Coefficient statistics:
+INFO 07/01/2025 10:31:00 AM :   Matrix range     [1e+00, 1e+00]
+INFO 07/01/2025 10:31:00 AM :   Objective range  [1e+00, 1e+02]
+INFO 07/01/2025 10:31:00 AM :   Bounds range     [1e+00, 1e+00]
+INFO 07/01/2025 10:31:00 AM :   RHS range        [1e+00, 2e+01]
+INFO 07/01/2025 10:31:00 AM : Found heuristic solution: objective 3396.0000000
+INFO 07/01/2025 10:31:01 AM : Presolve removed 164726 rows and 2024 columns
+INFO 07/01/2025 10:31:01 AM : Presolve time: 1.75s
+INFO 07/01/2025 10:31:01 AM : Presolved: 3358 rows, 74735 columns, 459023 nonzeros
+INFO 07/01/2025 10:31:01 AM : Variable types: 0 continuous, 74735 integer (74701 binary)
+INFO 07/01/2025 10:31:02 AM : Found heuristic solution: objective 37539.000000
+INFO 07/01/2025 10:31:02 AM : Deterministic concurrent LP optimizer: primal and dual simplex
+INFO 07/01/2025 10:31:02 AM : Showing first log only...
+INFO 07/01/2025 10:31:02 AM : 
+INFO 07/01/2025 10:31:02 AM : Concurrent spin time: 0.00s
+INFO 07/01/2025 10:31:02 AM : 
+INFO 07/01/2025 10:31:02 AM : Solved with primal simplex
+INFO 07/01/2025 10:31:02 AM : 
+INFO 07/01/2025 10:31:02 AM : Use crossover to convert LP symmetric solution to basic solution...
+INFO 07/01/2025 10:31:02 AM : 
+INFO 07/01/2025 10:31:02 AM : Root relaxation: objective 4.393800e+04, 55602 iterations, 0.67 seconds (0.43 work units)
+INFO 07/01/2025 10:31:03 AM : 
+INFO 07/01/2025 10:31:03 AM :     Nodes    |    Current Node    |     Objective Bounds      |     Work
+INFO 07/01/2025 10:31:03 AM :  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+INFO 07/01/2025 10:31:03 AM : 
+INFO 07/01/2025 10:31:03 AM : *    0     0               0    43938.000000 43938.0000  0.00%     -    3s
+INFO 07/01/2025 10:31:03 AM : 
+INFO 07/01/2025 10:31:03 AM : Explored 1 nodes (57902 simplex iterations) in 3.88 seconds (3.01 work units)
+INFO 07/01/2025 10:31:03 AM : Thread count was 8 (of 8 available processors)
+INFO 07/01/2025 10:31:03 AM : 
+INFO 07/01/2025 10:31:03 AM : Solution count 3: 43938 37539 3396 
+INFO 07/01/2025 10:31:03 AM : 
+INFO 07/01/2025 10:31:03 AM : Optimal solution found (tolerance 1.00e-04)
+INFO 07/01/2025 10:31:03 AM : Best objective 4.393800000000e+04, best bound 4.393800000000e+04, gap 0.0000%
+INFO 07/01/2025 10:31:03 AM : STEP 5.5: Optimization completed.
+INFO 07/01/2025 10:31:11 AM : 
+INFO 07/01/2025 10:31:11 AM : Compute Server communication statistics:
+INFO 07/01/2025 10:31:11 AM :   Sent: 2.132 MB in 8 msgs and 2.47s (0.86 MB/s)
+INFO 07/01/2025 10:31:11 AM :   Received: 3.841 MB in 20 msgs and 6.07s (0.63 MB/s)
+INFO 07/01/2025 10:31:11 AM : 

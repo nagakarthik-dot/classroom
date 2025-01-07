@@ -1,6 +1,0 @@
-2025-01-06 15:14:32,025 : INFO : STEP 1: Starting the script.
-2025-01-06 15:14:32,025 : INFO : STEP 2: Found Excel files.
-2025-01-06 15:14:32,025 : INFO : STEP 3: Valid input path identified.
-2025-01-06 15:14:33,736 : INFO : STEP 4: Input data read successfully.
-2025-01-06 15:14:33,743 : INFO : STEP 5: Optimizer initialized.
-2025-01-06 15:14:34,185 : ERROR : An error occurred: No compatible runtime available for version 11.0.3

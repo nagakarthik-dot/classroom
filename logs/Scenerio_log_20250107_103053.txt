@@ -1,0 +1,10 @@
+2025-01-07 10:30:53,451 : INFO : STEP 1: Starting the script.
+2025-01-07 10:30:53,451 : INFO : STEP 2: Found Excel files.
+2025-01-07 10:30:53,451 : INFO : STEP 3: Valid input path identified.
+2025-01-07 10:30:55,538 : INFO : STEP 4: Input data read successfully.
+2025-01-07 10:30:55,538 : INFO : STEP 5: Optimizer initialized.
+2025-01-07 10:30:56,257 : INFO : STEP 5.1: Problem initialized.
+2025-01-07 10:30:56,445 : INFO : STEP 5.2: Variables defined.
+2025-01-07 10:30:57,789 : INFO : STEP 5.3: Constraints created.
+2025-01-07 10:30:57,836 : INFO : STEP 5.4: Objective function set.
+2025-01-07 10:31:03,869 : INFO : STEP 5.5: Optimization completed.
