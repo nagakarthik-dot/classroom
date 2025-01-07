@@ -1,0 +1,2 @@
+2025-01-06 15:27:58,522 : INFO : STEP 1: Starting the script.
+2025-01-06 15:27:58,522 : ERROR : An error occurred: The input_full_path list is empty or invalid.

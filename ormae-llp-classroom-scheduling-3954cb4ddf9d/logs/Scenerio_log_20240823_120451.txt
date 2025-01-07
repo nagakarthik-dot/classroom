@@ -1,0 +1,14 @@
+2024-08-23 12:04:51,586 : INFO : STEP 1: Starting the script.
+2024-08-23 12:04:51,586 : INFO : STEP 2: Found Excel files.
+2024-08-23 12:04:51,586 : INFO : STEP 3: Valid input path identified.
+2024-08-23 12:04:52,224 : INFO : STEP 4: Input data read successfully.
+2024-08-23 12:04:52,224 : INFO : STEP 5: Optimizer initialized.
+2024-08-23 12:04:52,938 : INFO : STEP 5.1: Problem initialized.
+2024-08-23 12:04:52,985 : INFO : STEP 5.2: Variables defined.
+2024-08-23 12:04:53,309 : INFO : STEP 5.3: Constraints created.
+2024-08-23 12:04:53,321 : INFO : STEP 5.4: Objective function set.
+2024-08-23 12:04:54,914 : INFO : STEP 5.5: optimization completed.
+2024-08-23 12:04:56,464 : INFO : STEP 6: LP file written.
+2024-08-23 12:04:56,683 : INFO : The optimal objective is 7596
+2024-08-23 12:04:56,822 : INFO : STEP 7: Schedule extracted.
+2024-08-23 12:04:56,983 : INFO : STEP 8: Schedule output saved.

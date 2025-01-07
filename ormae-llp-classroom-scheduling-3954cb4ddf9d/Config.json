@@ -1,0 +1,44 @@
+{
+  "sheets": {
+    "class_subject_details": "Class_subject_Master",
+    "period_master": "Period_master",
+    "teachers_availability": "Teachers_availability",
+    "classrooms_master": "Classrooms_Master",
+    "elective_subjects": "Elective_Subjects",
+    "Daily period_Master":"Daily period_Master"
+  },
+  "columns": {
+    "class_subject_details": {
+      "Class_type":"Class_type",
+      "class": "Class",
+      "section": "Class_Section",
+      "subject": "Subject Name",
+      "primary_teacher": "Primary Teacher",
+      "secondary_teachers": "Secondary Teacher",
+      "periods_per_week": "Number of period/Week",
+      "classroom_reqd": "Classroom Priority",
+      "strength": "Class_Strength"
+    
+    },
+    "period_master": {
+      "day": "Day",
+      "number_of_periods": "Number of Periods"
+    },
+    "teachers_availability": {
+      "teacher_name": "Teacher Name",
+      "min_workload": "Min Workload",
+      "max_workload": "Max Workload"
+    },
+    "classrooms_master": {
+      "classroom_name": "Classroom_name",
+      "classroom_capacity": "Classroom_Capacity"
+    },
+    "elective_subjects": {
+      "class": "Class",
+      "subjects": ["Subject_1", "Subject_2", "Subject_3","Subject_4"]
+    },
+    "Daily period_Master":{
+      "Days":"Days"
+  }
+}
+}
